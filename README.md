@@ -1,16 +1,33 @@
-# counter_app
+# Flutter Project Structure
 
-A new Flutter project.
+FF project structure implemented on a simple counter app
+## Feature-first (layers inside features)
 
-## Getting Started
+The feature-first approach demands that we create a new folder for every new feature that we add to our app. And inside that folder, we can add the layers themselves as sub-folders.
+
+```
+‣ lib
+    ‣ src
+        ‣ features
+            ‣ features1
+                ‣ presentation 
+                ‣ application 
+                ‣ domain
+                ‣ data
+            ‣ features1
+                ‣ presentation 
+                ‣ application 
+                ‣ domain
+                ‣ data
+```
+
+## Benefits
+- Whenever we want to add a new feature or modify an existing one, we can focus on just one folder.
+- If we want to delete a feature, there's only one folder to remove (two if we count the corresponding test's folder)
+
 
 This project is a starting point for a Flutter application.
 
 A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- [Read More About Feature First Layers](https://codewithandrea.com/articles/flutter-project-structure/)

@@ -1,5 +1,5 @@
 import 'package:counter_app/core/utils/palette.dart';
-import 'package:counter_app/src/features/counter/application/counter_provider.dart';
+import 'package:counter_app/src/features/counter/controller/counter_provider.dart';
 import 'package:counter_app/src/features/counter/presentation/widgets/custom_app_bar.dart';
 import 'package:counter_app/src/features/counter/presentation/widgets/floating_button.dart';
 import 'package:flutter/material.dart';
